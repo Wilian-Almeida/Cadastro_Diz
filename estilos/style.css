@@ -1,0 +1,142 @@
+header {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    max-width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+    display: block;
+    margin: 0 auto 10px; /* Centraliza e adiciona espaçamento */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    /*background-color: #f4f4f4;*/
+    background: linear-gradient(to right, #8b0000, #D2691E); /* Vermelho escuro para marrom alaranjado */
+    align-items: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+form {
+    justify-content: center;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    color: #aeaeae;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+input {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.btn_cadastrar{
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d64c06;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: #68716a;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #D2691E;
+    color: white;
+}
+
+/* Alternância de cor nas linhas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
