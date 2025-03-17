@@ -1,28 +1,23 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Dizimistas</title>
-    <link rel="stylesheet" type="text/css" href="../estilos/style.css" />
-    
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
-
-<header>
-    <img src="../imagens/santa_Rita.png" alt="Logo da Comunidade" class="logo">
-    <div>
-        <h2>Comunidade Sta. Rita de Cássia<h3>Paróquia São Camilo de Lélis - Itapeva-SP</h3></h2>
-    </div>
-</header>
 <body>
-    <main>
-        <h1 color="#ffffff">Bem-vindo</h1>
-        <p>Escolha uma opção:</p>
+    <div class="login-container">
+        <form id="login-form">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
 
-        <button onclick="window.location.href='cadastro_dizimista.html'">Cadastrar Dizimista</button>
-        <button onclick="window.location.href='consulta_dizimistas.html'">Consultar Dizimistas</button>
-    </main>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <script type="module" src="Script/login.js"></script>
 </body>
-<footer>
-</footer>
 </html>
